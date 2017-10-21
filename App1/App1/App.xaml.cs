@@ -25,6 +25,7 @@ namespace App1
 		protected override void OnSleep ()
 		{
 			// Handle when your app sleeps
+            //Test
 		}
 
 
