@@ -5,9 +5,15 @@
              x:Class="App1.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Kochany Mati!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="StartAndExpand"/>
+           
+            <Entry Text="{Binding Testtext}"/>
+            <Button Text="Ok" Command="{Binding Entry_OnCompleted}"/>
+            <Label Text="{Binding Testtext2}"/>
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage> 
+    
+    

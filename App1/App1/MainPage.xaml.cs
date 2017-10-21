@@ -12,6 +12,10 @@ namespace App1
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+            var vm = new Class1();
+		    this.BindingContext = vm;
+		 }
+
+
 	}
 }
